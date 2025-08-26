@@ -250,7 +250,7 @@ footer {
 
 .footer {
   align-items: flex-start;
-  padding: 50px 0px;
+  padding: 50px 0px 10px 0px;
   flex-direction: column;
   gap: 30px;
   font-family: poppins, sans-serif;
@@ -281,6 +281,7 @@ footer {
   font-size: 16px;
   font-weight: 500;
   font-style: italic;
+  align-self: center;
 }
 
 @media (max-width: 768px) {
